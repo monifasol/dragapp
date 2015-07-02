@@ -1,0 +1,20 @@
+
+<div class="chest ui-widget-content ui-state-default ui-helper-clearfix">
+	<p>Drop here the apps you want to install</p>
+
+	<% if @my_apps %>
+	    <% for app in @my_apps %>
+			<li class="ui-widget-content drop" id="<%=app.id%>">
+				<div class='title'><%=app.name%></div>
+				<div><%=image_tag app.pic%></div>
+			</li>
+	    <% end %>    
+	<% end %>
+</div>
+
+<br class='clearer'/>      
+
+
+
+
+

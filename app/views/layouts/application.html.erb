@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8" />
+  <title>Dragapp - Drag and Drop</title>
+
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= favicon_link_tag '/walle.ico' %>
+  <%= csrf_meta_tags %>
+
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />  
+  <link href='http://fonts.googleapis.com/css?family=Risque' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<header>Drag your App!</header>
+	<%= yield %>
+</body>
+</html>

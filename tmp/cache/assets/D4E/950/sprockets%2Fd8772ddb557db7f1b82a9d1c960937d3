@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1353008121.0863914:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%1bb3c0d8dba7166d592f89e0ac019848I"logical_path;
+FI"eva.png;
+FI"pathname;
+FI"$$root/app/assets/images/eva.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-11-15T19:51:41+01:00;
+FI"length;
+FI"	6552;
+FI"digest;
+F"%19ae3d86a0170177b102688fee2c3429I"_version;
+F"%df7525e917401704ef453cb56bf16697

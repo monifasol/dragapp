@@ -1,0 +1,23 @@
+		
+<ul class="market ui-helper-clearfix">	
+	<% if @market_apps %>
+	    <% for app in @market_apps %>
+	    	<!-- specify DROP or nodrop -->
+	    	<% if current_user.applics.include?(app)%>
+				<li class="ui-widget-content nodrop" id="<%=app.id%>">
+			<% else %>
+				<li class="ui-widget-content drop" id="<%=app.id%>">
+			<% end %>
+				<div class='title'><%=app.name%></div>
+				<div><%=image_tag app.pic%></div>
+	        </li>	
+	    <% end %>    
+	<% end %>
+</ul>
+
+<br class='clearer'/>      
+
+
+
+
+
