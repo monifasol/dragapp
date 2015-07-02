@@ -1,0 +1,4 @@
+$('#div_my_apps').html('<%= escape_javascript(render(partial: "list_my_apps")) %>');
+$('#div_market_apps').html('<%= escape_javascript(render(partial: "list_market_apps")) %>');
+$("#current_number_apps").html(<%=@my_apps.size.to_s%> + " apps in my chest.");
+initialize_drag_drop();

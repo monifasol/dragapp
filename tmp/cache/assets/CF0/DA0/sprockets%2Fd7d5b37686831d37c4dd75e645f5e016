@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1353008121.0903256:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%7c7f6955a9eb4e8dca767a73a21a15a0I"logical_path;
+FI"rails.png;
+FI"pathname;
+FI"&$root/app/assets/images/rails.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2012-11-15T19:51:40+01:00;
+FI"length;
+FI"	6646;
+FI"digest;
+F"%7ad812856c7dc20006d43424bbe57d40I"_version;
+F"%df7525e917401704ef453cb56bf16697

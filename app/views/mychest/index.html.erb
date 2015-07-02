@@ -1,0 +1,36 @@
+
+<div class='left'>
+	<h1>My chest of apps</h1>
+	<p id='current_number_apps'>
+	  <% if current_user.applics %>
+	    <%= current_user.applics.size.to_s %> apps in my chest.
+	  <% end %>
+	</p>
+</div>
+<div class='right'>
+	<%=link_to 'Remove all my apps', {controller: 'mychest', action: 'remove_all'}, {class: 'button', id: 'remove_all', remote: 'true'}%> 
+</div>
+<br class='clearer'/>
+
+<div class="ui-widget">
+	<div id='div_my_apps'> <!-- div to be updated when remove or install ALL apps -->
+	  <%= render 'list_my_apps' %>
+	</div>
+
+	<br class='clearer'/>
+
+	<div class='left'>
+		<h1>Market place</h1>
+		<h2>Drag an app from the market place and drop it to your chest</h2>
+	</div>
+	<div class='right'>
+		<%=link_to 'Install all the apps', {controller: 'mychest', action: 'install_all'}, {class: 'button', id: 'install_all', remote: 'true'}%> 
+	</div>
+	<br class='clearer'/>
+
+	<div id='div_market_apps'> <!-- to update when remove or install ALL apps -->
+	  <%= render 'list_market_apps' %>
+	</div>
+</div>
+
+<br class='clearer'/>
